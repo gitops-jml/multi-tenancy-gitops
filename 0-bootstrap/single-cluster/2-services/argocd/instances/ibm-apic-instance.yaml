@@ -29,7 +29,7 @@ spec:
             spec:
               license:
                 accept: true
-                use: development 
+                use: nonproduction 
                 license: L-RJON-BZEP9N
               version: 10.0.3.0-ifix1
               profile: n1xc10.m48
