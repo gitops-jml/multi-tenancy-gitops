@@ -145,6 +145,10 @@ resources:
 #- argocd/instances/oadp-instance.yaml
 #- argocd/instances/baas-instance.yaml
 
+# Rook-Ceph storage block and file
+- argocd/operators/rook-ceph-operator.yaml
+- argocd/instances/rook-ceph-instance.yaml
+
 patches:
 - target:
     group: argoproj.io
