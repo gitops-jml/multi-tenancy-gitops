@@ -47,6 +47,7 @@ resources:
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
+- argocd/namespace-rook-ceph.yaml
 - argocd/rook-ceph.yaml
 patches:
 - target:
