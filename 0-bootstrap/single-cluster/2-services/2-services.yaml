@@ -106,7 +106,7 @@ spec:
     kind: CustomResourceDefinition
   - group: ""
     kind: PersistentVolume
-  - group: ""
+  - group: storage.k8s.io
     kind: StorageClass
   roles:
   # A role which provides read-only access to all applications in the project
