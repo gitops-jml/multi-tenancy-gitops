@@ -414,3 +414,10 @@ rules:
       - db2u.databases.ibm.com
     resources:
       - db2uclusters
+    - verbs:
+      - '*'
+    apiGroups:
+      - ceph.rook.io
+    resources:
+      - '*'
+      
