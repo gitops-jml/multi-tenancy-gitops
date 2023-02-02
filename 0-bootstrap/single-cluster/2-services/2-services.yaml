@@ -109,7 +109,7 @@ spec:
   - group: storage.k8s.io
     kind: StorageClass
   - group: ceph.rook.io
-    kind: cephfilesystem
+    kind: cephfilesystems
   - group: ceph.rook.io
     kind: cephblockpools
   - group: ceph.rook.io
