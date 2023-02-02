@@ -109,11 +109,11 @@ spec:
   - group: "storage.k8s.io"
     kind: StorageClass
   - group: "ceph.rook.io"
-    kind: cephfilesystems
+    kind: cephfilesystem
   - group: "ceph.rook.io"
-    kind: cephblockpools
+    kind: cephblockpool
   - group: "ceph.rook.io"
-    kind: cephclusters
+    kind: cephcluster
   roles:
   # A role which provides read-only access to all applications in the project
   - name: read-only
