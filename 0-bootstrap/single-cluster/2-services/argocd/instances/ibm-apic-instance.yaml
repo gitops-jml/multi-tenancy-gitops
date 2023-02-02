@@ -29,8 +29,8 @@ spec:
             spec:
               license:
                 accept: true
-                use: production
-                license: L-RJON-CEBLEH
+                use: nonproduction
+                license: L-GVEN-GFUPVE
               version: 10.0.5.2-ifix1
               profile: n1xc7.m48
               storageClassName: rook-ceph-block
