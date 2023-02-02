@@ -102,17 +102,17 @@ spec:
     kind: ClusterRoleBinding
   - group: "rbac.authorization.k8s.io"
     kind: ClusterRole
-  - group: apiextensions.k8s.io
+  - group: "apiextensions.k8s.io"
     kind: CustomResourceDefinition
   - group: ""
     kind: PersistentVolume
-  - group: storage.k8s.io
+  - group: "storage.k8s.io"
     kind: StorageClass
-  - group: ceph.rook.io
+  - group: "ceph.rook.io"
     kind: cephfilesystems
-  - group: ceph.rook.io
+  - group: "ceph.rook.io"
     kind: cephblockpools
-  - group: ceph.rook.io
+  - group: "ceph.rook.io"
     kind: cephclusters
   roles:
   # A role which provides read-only access to all applications in the project
