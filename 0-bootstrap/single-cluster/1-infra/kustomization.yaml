@@ -60,4 +60,4 @@ patches:
       value: https://github.com/gitops-jml/multi-tenancy-gitops-infra.git
     - op: add
       path: /spec/source/targetRevision
-      value: master
+      value: phcurmin-workspace
