@@ -76,6 +76,8 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: rook-ceph
     server: https://kubernetes.default.svc
+  - namespace: gateway-v5c
+    server: https://kubernetes.default.svc
   clusterResourceWhitelist:
   - group: ""
     kind: Namespace
