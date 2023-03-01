@@ -6,7 +6,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "240"
   labels:
     gitops.tier.group: cloudpak
-    gitops.tier.layer: applications
+    gitops.tier.layer: services
     gitops.tier.source: git
   spec:
   destination:
