@@ -41,4 +41,4 @@ patches:
       value: https://github.com/gitops-jml/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
-      value: master
+      value: cp4i-workspace

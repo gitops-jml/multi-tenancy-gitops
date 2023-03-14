@@ -11,7 +11,7 @@ spec:
   source:
     path: 0-bootstrap/single-cluster
     repoURL: https://github.com/gitops-jml/multi-tenancy-gitops.git
-    targetRevision: master
+    targetRevision: cp4i-workspace
   syncPolicy:
     automated:
       prune: true
