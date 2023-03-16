@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: rook-ceph-instance
   annotations:
-    argocd.argoproj.io/sync-wave: "280"
+    argocd.argoproj.io/sync-wave: "260"
   finalizers:
     - resources-finalizer.argocd.argoproj.io
   labels:
